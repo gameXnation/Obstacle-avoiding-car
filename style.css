@@ -1,0 +1,30 @@
+*{
+margin:0px;
+padding:0;
+box-sizing: border-box;
+}
+.background{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.background::before {
+    content:'';
+    background-image: url(photo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:0;
+    right:0;
+    
+}
+h1{
+    font-size: 80px;
+    font-family: sans-serif;
+    text-align: center;
+    position: relative;
+}
